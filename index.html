@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+	<style>
+		img{height:100px; width:auto; display:box; margin:0; padding:0; float:left;}
+		.container1{ background: none; width:1160px; margin:auto; margin-top:20px; height:130px;}
+	</style>
+  </HEAD>
+<body>
+<body background="o-WAVES-OCEAN-facebook/domino.jpg" onload="start();">
+<pre>
+
+
+
+
+
+</pre>
+<center><p><font face="Garamond"color="#005766"><h1>The Big Wave</h1></font></p></center>
+<pre>
+
+</pre>
+
+<div class="container1">
+	<img src="dance1/domino.gif" id="d1">
+	<img src="2/domino.jpg" id="d2">
+	<img src="3/domino.jpg" id="d3">
+	<img src="4/domino.jpg" id="d4">
+	<img src="5/domino.jpg" id="d5">
+	<img src="6/domino.jpg" id="d6">
+	<img src="#" style="width:0;clear:both">
+</div>
+<div class="container1">
+	<img src="left6/domino.jpg" id="d12">
+	<img src="left5/domino.jpg" id="d11">
+	<img src="left4/domino.jpg" id="d10">
+	<img src="left3/domino.jpg" id="d9">
+	<img src="left2/domino.jpg" id="d8">
+	<img src="left1/domino.jpg" id="d7">
+</div>
+<div class="container1">
+	<img src="right1/domino.jpg" id="d13">
+	<img src="right2/domino.jpg" id="d14">
+	<img src="right3/domino.jpg" id="d15">
+	<img src="right4/domino.jpg" id="d16">
+	<img src="right5/domino.jpg" id="d17">
+	<img src="right6/domino.jpg" id="d18">
+</div>
+<script>
+	var timer;
+
+	function start(){
+
+		timer = setTimeout( changepic, 1000  );
+	}
+
+	function changepic(){
+		d1.setAttribute("src","1/domino.jpg");
+		d2.setAttribute("src","dance2/domino.gif");
+		timer = setTimeout( changepic2, 900 );
+	}
+
+	function changepic2(){
+		d2.setAttribute("src","2/domino.jpg");
+		d3.setAttribute("src","dance3/domino.gif");
+		setTimeout( changepic3, 1100 );
+	}	
+
+	function changepic3(){
+		d3.setAttribute("src","3/domino.jpg");
+		d4.setAttribute("src","dance4/domino.gif");
+		setTimeout( changepic4, 1350 );
+	}
+
+	function changepic4(){
+		d4.setAttribute("src","4/domino.jpg");
+		d5.setAttribute("src","dance5/domino.gif");
+		setTimeout( changepic5, 1100 );
+	}
+	function changepic5(){
+		d5.setAttribute("src","5/domino.jpg");
+		d6.setAttribute("src","dance6/domino.gif");
+		setTimeout( changepic6, 2300 );
+	}
+
+	function changepic6(){
+		d6.setAttribute("src","6/domino.jpg");
+		d7.setAttribute("src","left1/domino.gif");
+		setTimeout( changepic7, 1300 );
+	}
+	
+	function changepic7(){
+		d7.setAttribute("src","left1/domino.jpg");
+		d8.setAttribute("src","left2/domino.gif");
+		timer = setTimeout( changepic8, 1400 );
+	}
+
+	function changepic8(){
+		d8.setAttribute("src","left2/domino.jpg");
+		d9.setAttribute("src","left3/domino.gif");
+		setTimeout( changepic9, 2300 );
+	}	
+
+	function changepic9(){
+		d9.setAttribute("src","left3/domino.jpg");
+		d10.setAttribute("src","left4/domino.gif");
+		setTimeout( changepic10, 1000 );
+	}
+
+	function changepic10(){
+		d10.setAttribute("src","left4/domino.jpg");
+		d11.setAttribute("src","left5/domino.gif");
+		setTimeout( changepic11, 2000 );
+	}
+	function changepic11(){
+		d11.setAttribute("src","left5/domino.jpg");
+		d12.setAttribute("src","left6/domino.gif");
+		setTimeout( changepic12, 1000 );
+	}
+
+	function changepic12(){
+		d12.setAttribute("src","left6/domino.jpg");
+		d13.setAttribute("src","right1/domino.gif");
+		setTimeout( changepic13, 2000 );
+	}
+	function changepic13(){
+		d13.setAttribute("src","right1/domino.jpg");
+		d14.setAttribute("src","right2/domino.gif");
+		setTimeout( changepic14, 1200 );
+	}	
+
+	function changepic14(){
+		d14.setAttribute("src","right2/domino.jpg");
+		d15.setAttribute("src","right3/domino.gif");
+		setTimeout( changepic15, 1000 );
+	}
+
+	function changepic15(){
+		d15.setAttribute("src","right3/domino.jpg");
+		d16.setAttribute("src","right4/domino.gif");
+		setTimeout( changepic16, 1000 );
+	}
+	function changepic16(){
+		d16.setAttribute("src","right4/domino.jpg");
+		d17.setAttribute("src","right5/domino.gif");
+		setTimeout( changepic17, 1000 );
+	}
+	
+	function changepic17(){
+		d17.setAttribute("src","right5/domino.jpg");
+		d18.setAttribute("src","right6/domino.gif");
+		setTimeout( changepic18, 2000 );
+	}
+function changepic18(){
+		d18.setAttribute("src","right6/domino.jpg");
+		d1.setAttribute("src","dance1/domino.gif");
+		setTimeout( changepic, 1000 );
+	}
+</script>
+
+
+</body>
+</html>
